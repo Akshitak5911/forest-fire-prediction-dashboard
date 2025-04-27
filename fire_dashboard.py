@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
 # Load your dataset
-df = pd.read_csv(r'C:\Users\akaks\OneDrive\Downloads\archive\forestfires.csv')
+df = pd.read_csv('forestfires.csv')
 
 # Preprocess the data
 label_encoder = LabelEncoder()
